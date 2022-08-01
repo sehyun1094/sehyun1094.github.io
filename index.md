@@ -28,7 +28,7 @@ font-weight:bold">
 
 ## Personal Data
 ---
-> 1996.05.29 출생
+> 1996.05.29
 
 > 연락처: ps_hyen@snu.ac.kr
 
