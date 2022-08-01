@@ -154,7 +154,7 @@ DEPENDENCIES
   jekyll-seo-tag!
   jekyll-sitemap
   jekyll-spaceship
-  jekyll-theme-hydejack (~> 9.0)
+  jekyll-theme-hydejack (~> 9.1.6)
   jekyll-titles-from-headings
   jekyll-watch (~> 2.2)
   kramdown-math-katex
