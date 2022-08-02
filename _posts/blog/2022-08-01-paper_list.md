@@ -22,3 +22,8 @@ published: true
   - [Makhzani, Alireza, et al. "Adversarial autoencoders." arXiv preprint arXiv:1511.05644 (2015).](https://arxiv.org/pdf/1511.05644.pdf)
 - ⬜ **오토인코더의 모든 것**
   - [AutoEncoder의 모든 것, 이활석](https://www.slideshare.net/NaverEngineering/ss-96581209)
+
+## 2) Natural Language Processing
+- ⬜ **Attention Is All You Need**
+ - [Vaswani, Ashish, et al. "Attention is all you need." Advances in neural information processing systems 30 (2017).](https://arxiv.org/abs/1706.03762)  
+ 
