@@ -6,7 +6,6 @@ layout: base
 
 
 <!-- list layout -->
-
 {% if page.list %}
   {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
 
@@ -20,10 +19,9 @@ layout: base
   {% for post in posts %}
     {% assign current_date = post.date | date:list_group_by %}
     {% unless page.no_groups %}{% if current_date != prev_date %}
-      {% unless forloop.first %}</ul>{% endunless %}
+      {% unless forloop.first %}</div></ul>{% endunless %}
 
       <!-- id="{{ list_group_by | slugify }}-{{ current_date | slugify }}" -->
-
   <h2 class="list-lead">{{ current_date }}</h2>
     <ul class="related-posts">
       {% assign prev_date = current_date %}
@@ -31,7 +29,7 @@ layout: base
     {% include_cached components/post-list-item2.html post=post format=list_entry %}
     {% if forloop.last %}</ul>{% endif %}
   {% endfor %}
-  </div>
+  
 {% endif %}
 
     <!--게시물 생성시 hits생성-->
