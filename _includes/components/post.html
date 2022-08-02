@@ -44,14 +44,7 @@
 
     <!--상단버튼-->
     {% include page-button.html %}
-    <!--게시물 생성시 hits생성-->
-      <div style="text-align:right; text-align: center">
-          <a href="https://hits.seeyoufarm.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
-            target="_blank">
-            <img
-            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%23293786&title_bg=%23555555&icon=bilibili.svg&icon_color=%23E7E7E7&title=.&edge_flat=false"/>
-          </a>
-      </div>
+
   </header>
   <div class="markdown-body">
   {% if no_excerpt %}
@@ -60,6 +53,7 @@
     {{ post.excerpt }}
   </div>
 
+
     {% capture post_title %}<a class="heading flip-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endcapture %}
     {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--post_title-->" %}
     <!--footer-->
@@ -67,7 +61,6 @@
       <p class="read-more">
         {{ text | replace:"<!--post_title-->", post_title }}
       </p>
-
     </footer>
   {% endif %}
 </div>
