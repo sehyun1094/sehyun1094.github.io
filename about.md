@@ -45,7 +45,7 @@ font-weight:bold">
 
 > Feb.2022 ~ 현재 : 서울대학교
 >
-> 통계 대학원 (ㅇㅇㅇ 교수님 연구실)
+> 통계 대학원 (지능형자료분석 연구실, IDEA Lab)
 
 
 ## Research Interest
