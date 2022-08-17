@@ -38,14 +38,15 @@ font-weight:bold">
 
 ## Education
 ---
+> Feb.2022 ~ 현재 : 서울대학교
+>
+> 통계 대학원 (지능형자료분석 연구실, IDEA Lab)  
+
 > Mar.2015 ~ Feb.2021 한국외국어대학교 글로벌캠퍼스
 >
 > 주전공: 통계학과
 > 부전공: 수학과
 
-> Feb.2022 ~ 현재 : 서울대학교
->
-> 통계 대학원 (지능형자료분석 연구실, IDEA Lab)
 
 
 ## Research Interest
