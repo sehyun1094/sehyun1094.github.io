@@ -50,4 +50,6 @@ Optimal Transport는 1781년 Gaspard Monge가 어떠한 집합체(mass)를 재�
 > The optimal transport cost $$\mathcal{T}_{c}(f, g)$$ of transporting $$f$$ to $$g$$ with cost function $$c$$ is defined by  
 > $$\mathcal{T}_{c}(f, g):=\inf _{T \# f=g} M(T)$$
 
+\\(A+B = C\\)  
 
+\\[A+B = C\\]
