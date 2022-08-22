@@ -11,6 +11,7 @@ related_posts:
   - 
 comments: true
 published: true
+mathjax: true
 ---
 
 * toc
