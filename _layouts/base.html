@@ -41,3 +41,7 @@ layout: compress
 <body class="{% include_cached base-classes %}">
   {% include body/index.html %}
 </body>
+
+{% if page.use_math %}
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+{% endif %}
