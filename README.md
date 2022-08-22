@@ -16,12 +16,16 @@ git config --global user.email [사용자 이메일]
 
 
 > github 블로그 업데이트 방법  
-- blog 폴더에서 다음을 실행
+- 처음 실행하는 경우 blog 폴더에서 다음을 실행
 ```
 git clone [repo 주소]
 ```   
 
-- blog 업데이트 할 폴더 위치로 이동(cd)
+- blog 업데이트 할 폴더 위치로 이동(cd) 후 다음을 실행  
+```
+git pull
+```  
+
 - 파일 수정 후 다음을 실행
 ```
 git add .

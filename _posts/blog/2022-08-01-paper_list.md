@@ -25,7 +25,8 @@ published: true
 - ⬜ **오토인코더의 모든 것**  
   - [AutoEncoder의 모든 것, 이활석](https://www.slideshare.net/NaverEngineering/ss-96581209)  
 
-## 2) Natural Language Processing
-- ⬜ **Attention Is All You Need**
-  - [Vaswani, Ashish, et al. "Attention is all you need." Advances in neural information processing systems 30 (2017).](https://arxiv.org/pdf/1706.03762.pdf)  
-
+## 2) Optimal Transport  
+- ✔ **A Brief Introduction to Optimal Transport Theory**  
+  - [Bourne, D. P. "A Brief Introduction to Optimal Transport Theory." July 27th (2018).](http://www.maths.gla.ac.uk/~gbellamy/LMS/BourneLectures.pdf)  
+- [ ] **Monge–Kantorovich transportation problem**  
+  - [Rüschendorf, Ludger. "Monge-Kantorovich transportation problem and optimal couplings." Jahresbericht der DMV 3 (2007): 113-137.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.6344&rep=rep1&type=pdf)
