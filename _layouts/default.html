@@ -28,10 +28,6 @@ layout: base
     {{ content }}
   </div>
 
-{% if page.use_math %}
-  {% include mathjax_support.html %}
-{% endif %}
-
 <!--
   {% if site.posts.size > 0 %}
     <h2 class="hr-bottom">{{ strings.posts | default:"Posts" }}</h2>

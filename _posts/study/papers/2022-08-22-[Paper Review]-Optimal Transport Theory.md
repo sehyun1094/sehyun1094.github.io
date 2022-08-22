@@ -11,7 +11,6 @@ related_posts:
   - 
 comments: true
 published: true
-use_math: true
 ---
 
 * toc
