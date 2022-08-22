@@ -13,7 +13,6 @@ layout: base
   {% assign list_group_by = date_formats.list_group_by | default:"%Y"    %}
   {% assign list_entry    = date_formats.list_entry    | default:"%m %d" %}
 
-  <!--
   {% assign prev_date = 0 %}
   {% if page.no_groups %}<ul class="related-posts">{% endif %}
   <div class="list-post">
@@ -21,10 +20,8 @@ layout: base
     {% assign current_date = post.date | date:list_group_by %}
     {% unless page.no_groups %}{% if current_date != prev_date %}
       {% unless forloop.first %}</div></ul>{% endunless %}
-  -->
 
       <!-- id="{{ list_group_by | slugify }}-{{ current_date | slugify }}" -->
-  <!--
   <h2 class="list-lead">{{ current_date }}</h2>
     <ul class="related-posts">
       {% assign prev_date = current_date %}
@@ -32,7 +29,6 @@ layout: base
     {% include_cached components/post-list-item2.html post=post format=list_entry %}
     {% if forloop.last %}</ul>{% endif %}
   {% endfor %}
-  -->
   
 {% endif %}
 
