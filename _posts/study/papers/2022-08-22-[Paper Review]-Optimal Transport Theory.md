@@ -38,9 +38,15 @@ Optimal Transport는 1781년 Gaspard Monge가 어떠한 집합체(mass)를 재�
 
 위 그림처럼 원래 흙 퇴적물의 모양을 $$X$$의 분포라고 하고, 둑의 모양을 $$Y$$의 분포라고 하면 우리는 분포에서 분포로 변형해주는 함수를 얻고자 한다. 이를 **Transport**라고 하는데, 이는 여러가지가 있을 수 있다. 여러 **Transport** 중 가장 효과적인(즉, 비용이 적게 드는) **Transport**를 **Optimal Tranport**라고 하고 이를 찾고자 한다.
 
-# 2. Notation & Background
+# 2. Monge Problem
 -------------------------------------------------------------------
+위에서 설명한 문제를 수학적으로 정리하고자 한다.
 
-
+## **The Monge problem**
+> **[Definition 1]**   
+> Let $X, Y \subseteq \mathbb{R}^{d}$. Let $f$ be a probability density on $X$ and $g$ be a probability density on $Y$. Let $c: X \times Y \rightarrow[0, \infty)$ be continuous. The Monge problem is to find a transport map $T: X \rightarrow Y$ satisfying $T \# f=g$ such that $T$ minimises the cost functional
+> $$M(T):=\int_{X} c(x, T(x)) f(x) \mathrm{d} x .$$
+> The optimal transport cost $\mathcal{T}_{c}(f, g)$ of transporting $f$ to $g$ with cost function $c$ is defined by
+> $$\mathcal{T}_{c}(f, g):=\inf _{T \# f=g} M(T)$$
 
 
