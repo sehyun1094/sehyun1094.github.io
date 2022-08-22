@@ -53,11 +53,12 @@ $$ M(T):=\int_{X} c(x, T(x)) f(x) \mathrm{d} x .$$
 
 $$\mathcal{T}_{c}(f, g):=\inf_{T \# f=g} M(T)$$
 
+
 > **[Definition 1]**   
-> Let \(X, Y \subseteq \mathbb{R}^{d\) Let \(f\) be a probability density on \(X\) and \(g\) be a probability density on \(Y\) Let \(c: X \times Y \rightarrow[0, \infty\) be continuous. The Monge problem is to find a transport map \(T: X \rightarrow Y\) satisfying \(T \# f=g\) such that \(T\) minimises the cost functional \[ M(T):=\int_{X} c(x, T(x)) f(x) \mathrm{d} x . \]  
-> The optimal transport cost \(\mathcal{T}_{c}(f, g\) of transporting \(f\) to \(g\) with cost function \(c\) is defined by \[ \mathcal{T}_{c}(f, g):=\inf _{T \# f=g} M(T) \]  
+> Let $$X, Y \subseteq \mathbb{R}^{d}$$. Let $$f$$ be a probability density on $$X$$ and $$g$$ be a probability density on $$Y$$. Let $$c: X \times Y \rightarrow[0, \infty)$$ be continuous. The Monge problem is to find a transport map $$T: X \rightarrow Y$$ satisfying $$T \# f=g$$ such that $$T$$ minimises the cost functional  
 
+> $$ M(T):=\int_{X} c(x, T(x)) f(x) \mathrm{d} x .$$
 
-$$\mathcal{T}_{c}(f, g):=\inf_{T \# f=g} M(T)$$
+> The optimal transport cost $$\mathcal{T}_{c}(f, g)$$ of transporting $$f$$ to $$g$$ with cost function $$c$$ is defined by  
 
-
+> $$\mathcal{T}_{c}(f, g):=\inf_{T \# f=g} M(T)$$
