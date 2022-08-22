@@ -29,4 +29,8 @@ published: true
 - [x] &nbsp; **A Brief Introduction to Optimal Transport Theory**  
   - [Bourne, D. P. "A Brief Introduction to Optimal Transport Theory." July 27th (2018).](http://www.maths.gla.ac.uk/~gbellamy/LMS/BourneLectures.pdf)  
 - [ ] &nbsp; **Monge–Kantorovich transportation problem**  
-  - [Rüschendorf, Ludger. "Monge-Kantorovich transportation problem and optimal couplings." Jahresbericht der DMV 3 (2007): 113-137.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.6344&rep=rep1&type=pdf)
+  - [Rüschendorf, Ludger. "Monge-Kantorovich transportation problem and optimal couplings." Jahresbericht der DMV 3 (2007): 113-137.](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.6344&rep=rep1&type=pdf)  
+- [ ] &nbsp; **Minimax estimation of smooth optimal transport maps**  
+  - [Hütter, Jan-Christian, and Philippe Rigollet. "Minimax estimation of smooth optimal transport maps." The Annals of Statistics 49.2 (2021): 1166-1194.](https://projecteuclid.org/journals/annals-of-statistics/volume-49/issue-2/Minimax-estimation-of-smooth-optimal-transport-maps/10.1214/20-AOS1997.full)  
+- [ ] &nbsp; **Minimax estimation of smooth optimal transport maps**  
+  - [Deb, Nabarun, Promit Ghosal, and Bodhisattva Sen. "Rates of estimation of optimal transport maps using plug-in estimators via barycentric projections." Advances in Neural Information Processing Systems 34 (2021): 29736-29753.](https://proceedings.neurips.cc/paper/2021/file/f862d13454fd267baa5fedfffb200567-Paper.pdf)  
