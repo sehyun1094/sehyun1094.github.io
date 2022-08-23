@@ -22,7 +22,7 @@ use_math: true
 - **A Brief Introduction to Optimal Transport Theory**  
   - [Bourne, D. P. "A Brief Introduction to Optimal Transport Theory." July 27th (2018).](http://www.maths.gla.ac.uk/~gbellamy/LMS/BourneLectures.pdf)  
 
-Optimal Transport 이론을 석사 수준 이하로 쉽게 설명하는 논문으로 처음 공부하는 사람에게 추천한다.  
+Optimal Transport 이론을 석사 수준 이하로 쉽게 설명하는 논문으로, 내가 처음 공부하는 분야여서 연구실 선배들이 추천해주었다.  
 
 # 1. Optimal Transport  
 -------------------------------------------------------------------
@@ -57,4 +57,12 @@ The optimal transport cost $$\mathcal{T}_{c}(f, g)$$ of transporting $$f$$ to $$
 
 $$\mathcal{T}_{c}(f, g):=\inf_{T \# f=g} M(T)$$
 
+---
+
+---  
+> **[Definition 1]**  
+> Let $$X, Y \subseteq \mathbb{R}^{d}$$. Let $$f$$ be a probability density on $$X$$ and $$g$$ be a probability density on $$Y$$. Let $$c: X \times Y \rightarrow[0, \infty)$$ be continuous. The Monge problem is to find a transport map $$T: X \rightarrow Y$$ satisfying $$T \# f=g$$ such that $$T$$ minimises the cost functional  
+> &nbsp;&nbsp;$$ M(T):=\int_{X} c(x, T(x)) f(x) \mathrm{d} x .$$
+> The optimal transport cost $$\mathcal{T}_{c}(f, g)$$ of transporting $$f$$ to $$g$$ with cost function $$c$$ is defined by  
+> &nbsp;&nbsp;$$\mathcal{T}_{c}(f, g):=\inf_{T \# f=g} M(T)$$
 ---
