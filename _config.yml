@@ -54,9 +54,6 @@ menu:
     url:               /study/
   - title:             Blog
     url:               /blog/
-    submenu:
-        - title: 2022
-          url: /2022/
 
 
 # Add links to the footer.
