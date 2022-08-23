@@ -48,7 +48,12 @@ Optimal Transport는 1781년 Gaspard Monge가 어떠한 집합체(mass)를 재�
 - **Push-forward**  
   Let $$X, Y \subseteq \mathbb{R}^{d}$$ and $$T: X \rightarrow Y$$. Let $$f$$ be a probability density on $$X$$ and $$g$$ be a probability density on $$Y$$. We say that $$g$$ is the push-forward of $$f$$ under $$T$$, and write $$g=T \# f$$, if  
         $$\int_{B} g(y) \mathrm{d} y=\int_{T^{-1}(B)} f(x) \mathrm{d} x \quad \forall B \subseteq Y .$$  
-  In other words, the mass of the set $$B$$ with respect to the density $$g$$ equals the mass of the set $$T^{-1}(B)$$ with respect to the density $$f$$.
+  In other words, the mass of the set $$B$$ with respect to the density $$g$$ equals the mass of the set $$T^{-1}(B)$$ with respect to the density $$f$$.  
+
+- **Convex and concave functions**  
+  Let $$I \subseteq \mathbb{R}$$ be an interval (possibly unbounded). We say that $$h: I \rightarrow \mathbb{R}$$ is convex if for all $$\lambda \in(0,1), x, y \in I, x \neq y$$,  
+        $$  h((1-\lambda) x+\lambda y) \leq(1-\lambda) h(x)+\lambda h(y) .$$  
+  We say that $$h$$ is strictly convex if the inequality in (2.2) is strict. We say that $$h$$ is concave if $$-h$$ is convex and strictly concave if $$-h$$ is strictly convex.  
 
 
 **The Monge problem**  
