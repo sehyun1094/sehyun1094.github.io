@@ -1,6 +1,6 @@
 ---
 layout: post
-bigtitle:  "[Paper Review] A Brief Introduction to Optimal Transport Theory"
+bigtitle:  "[Paper Review] A Brief Introduction to Optimal Transport Theory (1) "
 subtitle:   "Optimal Transport"
 categories:
     - study
@@ -43,21 +43,15 @@ Optimal Transport는 1781년 Gaspard Monge가 어떠한 집합체(mass)를 재�
 -------------------------------------------------------------------
 위에서 설명한 문제를 수학적으로 정리하고자 한다.
 
-### **The Monge problem**
+**Notation**  
 
----  
+- **Push-forward**  
+  Let $$X, Y \subseteq \mathbb{R}^{d}$$ and $$T: X \rightarrow Y$$. Let $$f$$ be a probability density on $$X$$ and $$g$$ be a probability density on $$Y$$. We say that $$g$$ is the push-forward of $$f$$ under $$T$$, and write $$g=T \# f$$, if  
+        $$\int_{B} g(y) \mathrm{d} y=\int_{T^{-1}(B)} f(x) \mathrm{d} x \quad \forall B \subseteq Y .$$  
+  In other words, the mass of the set $$B$$ with respect to the density $$g$$ equals the mass of the set $$T^{-1}(B)$$ with respect to the density $$f$$.
 
-> **[Definition 1]**  
 
-Let $$X, Y \subseteq \mathbb{R}^{d}$$. Let $$f$$ be a probability density on $$X$$ and $$g$$ be a probability density on $$Y$$. Let $$c: X \times Y \rightarrow[0, \infty)$$ be continuous. The Monge problem is to find a transport map $$T: X \rightarrow Y$$ satisfying $$T \# f=g$$ such that $$T$$ minimises the cost functional  
-
-$$ M(T):=\int_{X} c(x, T(x)) f(x) \mathrm{d} x .$$
-
-The optimal transport cost $$\mathcal{T}_{c}(f, g)$$ of transporting $$f$$ to $$g$$ with cost function $$c$$ is defined by  
-
-$$\mathcal{T}_{c}(f, g):=\inf_{T \# f=g} M(T) = \min_{T \# f=g} M(T)$$
-
----
+**The Monge problem**  
 
 ---  
 > **[Definition 1]**  
