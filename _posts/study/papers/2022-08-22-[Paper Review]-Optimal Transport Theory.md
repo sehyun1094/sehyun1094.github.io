@@ -83,4 +83,8 @@ Optimal Transport는 1781년 Gaspard Monge가 어떠한 집합체(mass)를 재�
 ---  
 
 특이한 점으로 **Monge Problem**에서 $$X$$와 $$Y$$의 총 밀도가 1일 필요는 없다. 하지만 $$X$$와 $$Y$$의 총 밀도의 값이 같아야 한다. 즉, $$\int_{X} f(x) \mathrm{d} x=\int_{Y} g(y) \mathrm{d} y$$ 이 만족해야 한다.  
-만약 $$\int_{X} f(x) \mathrm{d} x \neq \int_{Y} g(y) \mathrm{d} y$$ 이라면 $$T \# f=g$$를 만족하는 $$T$$가 존재하지 않고, $$\mathcal{T}_{c}(f, g)=+\infty$$ 이다.
+만약 $$\int_{X} f(x) \mathrm{d} x \neq \int_{Y} g(y) \mathrm{d} y$$ 이라면 $$T \# f=g$$를 만족하는 $$T$$가 존재하지 않고, $$\mathcal{T}_{c}(f, g)=+\infty$$ 이다.  
+
+<br>
+
+우리가 찾고자 하는 $$T$$는 기본적으로 $$T \# f=g$$ 이 조건을 만족하여야한다. 다음 Lemma는 이 조건과 동치이자 앞으로의 계산에 큰 역할을 하는 식이다.
