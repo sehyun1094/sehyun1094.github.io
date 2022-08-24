@@ -22,7 +22,7 @@ use_math: true
 - **A Brief Introduction to Optimal Transport Theory**  
   - [Bourne, D. P. "A Brief Introduction to Optimal Transport Theory." July 27th (2018).](http://www.maths.gla.ac.uk/~gbellamy/LMS/BourneLectures.pdf)  
 
-Optimal Transport 이론을 석사 수준 이하로 쉽게 설명하는 논문으로, 내가 처음 공부하는 분야여서 연구실 선배들이 추천해주었다.  
+Optimal Transport 이론을 석사 수준 이하로 쉽게 설명하는 논문으로, 처음 공부하는 학생들에게 추천한다.  
 
 ## 1. Optimal Transport  
 -------------------------------------------------------------------
@@ -99,4 +99,8 @@ Optimal Transport는 1781년 Gaspard Monge가 어떠한 집합체(mass)를 재�
 
 ---  
 
+<br>
 
+**Optimal Transport**는 cost를 나타내는 $$h$$ 함수가 어떤 모양이냐에 따라 존재하지 않을 수도, 여러 가지 존재할 수도, 단 한 개만 존재할 수도 있다. 예를들어 $$h$$가 convex function 이라면 **Jensen’s inequality**를 이용하여 구할 수도 있다.
+
+다음 장에서는 **Optimal Transport**를 구하기 위하여 cost를 최소화하는 문제를 같은 결과이지만 최대화하는 문제로 변형하는 Dual Problem에 대해 정리하기로 한다. 
