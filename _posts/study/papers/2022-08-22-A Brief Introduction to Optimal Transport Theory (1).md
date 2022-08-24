@@ -123,6 +123,23 @@ M(T) &=\int_{0}^{1} h(T(x)-x) f(x) \mathrm{d} x \\
 \end{aligned}
 $$  
 
+$$
+\colorbox{white}{
+\begin{aligned}
+M(T) &=\int_{0}^{1} h(T(x)-x) f(x) \mathrm{d} x \\
+& \geq h\left(\int_{0}^{1}(T(x)-x) f(x) \mathrm{d} x\right) \\
+&=h\left(\int_{0}^{1} T(x) f(x) \mathrm{d} x-\int_{0}^{1} x f(x) \mathrm{d} x\right) \\
+&\left.=h\left(\int_{1}^{2} y g(y) \mathrm{d} y-\int_{0}^{1} x f(x) \mathrm{d} x\right) \quad \quad \text { (by }(3.1) \text { with } \varphi(y)=y\right) \\
+&=h\left(\frac{3}{2}-\frac{1}{2}\right) \\
+&=h(1) \\
+&=\int_{0}^{1} h(1) f(x) \mathrm{d} x \\
+&=\int_{0}^{1} h\left(T_{1}(x)-x\right) f(x) \mathrm{d} x \\
+&=M\left(T_{1}\right) .
+\end{aligned}
+}
+$$  
+
+
 > 이를 통하여 $$T \# f=g$$를 만족하는 임의의 $$T$$에 대하여 $$M(T) \geq M(T_{1})$$임을 알 수 있고, $$T_{1}$$이 **Optimal transport**임을 알 수 있다.  
 
 ---  
