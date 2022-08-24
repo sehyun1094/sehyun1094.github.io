@@ -103,4 +103,31 @@ Optimal Transport는 1781년 Gaspard Monge가 어떠한 집합체(mass)를 재�
 
 **Optimal Transport**는 cost를 나타내는 $$h$$ 함수가 어떤 모양이냐에 따라 존재하지 않을 수도, 여러 가지 존재할 수도, 단 한 개만 존재할 수도 있다. 예를들어 $$h$$가 convex function 이라면 **Jensen’s inequality**를 이용하여 구할 수도 있다.
 
+---  
+
+> **[Example 2]**  
+>  $$X=[0, 1], \text { and } Y=[1, 2]$$라고 하고, $$f(x)=1, x \in X, \text { and } g(y)=1, y \in Y$$라 하자.  
+>  $$T_{1}(x) = x+1$$이라 하고, $$T$$를 $$T \# f=g$$를 만족하는 임의의 Transport라고 할 때, 다음을 보일 수 있다.  
+
+$$
+\begin{aligned}
+M(T) &=\int_{0}^{1} h(T(x)-x) f(x) \mathrm{d} x \\
+& \geq h\left(\int_{0}^{1}(T(x)-x) f(x) \mathrm{d} x\right) \\
+&=h\left(\int_{0}^{1} T(x) f(x) \mathrm{d} x-\int_{0}^{1} x f(x) \mathrm{d} x\right) \\
+&\left.=h\left(\int_{1}^{2} y g(y) \mathrm{d} y-\int_{0}^{1} x f(x) \mathrm{d} x\right) \quad \quad \text { (by }(3.1) \text { with } \varphi(y)=y\right) \\
+&=h\left(\frac{3}{2}-\frac{1}{2}\right) \\
+&=h(1) \\
+&=\int_{0}^{1} h(1) f(x) \mathrm{d} x \\
+&=\int_{0}^{1} h\left(T_{1}(x)-x\right) f(x) \mathrm{d} x \\
+&=M\left(T_{1}\right) .
+\end{aligned}
+$$  
+
+> 이를 통하여 $$T \# f=g$$를 만족하는 임의의 $$T$$에 대하여 $$M(T) \geq M(T_{1})$$임을 알 수 있고, $$T_{1}$$이 **Optimal transport**임을 알 수 있다.  
+
+---  
+
+
+<br>
+
 다음 장에서는 **Optimal Transport**를 구하기 위하여 cost를 최소화하는 문제를 같은 결과이지만 최대화하는 문제로 변형하는 Dual Problem에 대해 정리하기로 한다. 
