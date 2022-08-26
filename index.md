@@ -35,6 +35,7 @@ font-weight:bold">
 > Github : <a href="https://github.com/sehyun1094">https://github.com/sehyun1094</a>
 
 
+
 ## Education
 ---
 > Feb.2022 ~ 현재. 서울대학교  
@@ -43,8 +44,9 @@ font-weight:bold">
 
 > Mar.2015 ~ Feb.2021. 한국외국어대학교 글로벌캠퍼스  
 >
-> 주전공: 통계학  
-> 부전공: 수학
+> Major: Statistics    
+> Minor: Mathematics  
+
 
 
 ## Research Interest
