@@ -21,9 +21,9 @@ font-weight:bold">
 </span>
 </center>
 
-<center>MAJOR : Statistics</center>
+<center>Major : Statistics</center>
 
-<center>Seoul University</center>
+<center>Seoul National University</center>
 
 <center>1 Gwanak-ro, Gwanak-gu, Seoul, Republic of Korea</center>
 
